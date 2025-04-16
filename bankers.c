@@ -3,6 +3,7 @@
 #define  P 5 
 #define R 3 
 
+
 void calculateNeed( int need[P][R],int max[P][R], int alloc[P][R]) {
     
     for (int i = 0; i < P; i++)
