@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
-
-
 int main() {
     int n, head;
     printf("Enter number of requests: ");
