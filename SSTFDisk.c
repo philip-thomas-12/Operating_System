@@ -31,6 +31,8 @@ int main() {
         served[index] = 1;
     }
     
-    printf("Total seek operations = %d\n", seek_count);
+    
+
+     printf("Total seek operations = %d\n", seek_count);
     return 0;
 }
