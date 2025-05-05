@@ -17,7 +17,7 @@ int main() {
     printf("Enter total disk size: ");
     scanf("%d", &disk_size);
 
-    // Sort requests
+    //Sort requests
     for(int i = 0; i < n-1; i++) {
         for(int j = i+1; j < n; j++) {
             if(requests[i] > requests[j]) {
